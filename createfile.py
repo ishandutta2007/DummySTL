@@ -1,4 +1,4 @@
-with open(files.txt) as f:
+with open("files.txt") as f:
     lines = f.readlines()
     for line in lines:
         print(line)
