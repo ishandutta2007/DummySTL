@@ -1,0 +1,1 @@
+//dummy file memory_resource.h

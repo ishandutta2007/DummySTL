@@ -5,3 +5,6 @@ with open("files.txt") as f:
         line = line.replace("\n", "")
         with open(line, "w") as f:
             f.write("//dummy file " + line)
+        line = line.replace(".h", "")
+        with open(line, "w") as f:
+            f.write("//dummy file " + line)
